@@ -1,5 +1,5 @@
 # Skhu_Backend_Spring
-## 2주차 Spring 실습 자료 실행 절차 이해하기 hello2 프로젝트
+## 2주차 Spring 실습 자료 실행 절차 이해하기 hello2 프로젝트 9월23일
 1
 웹브라우저가
 웹서버에 요청 HTTP R equest) 을 전달한다
@@ -30,7 +30,7 @@ Model 객체에서 데이터를 꺼내서 출력하고 , HTML 태그들도 출�
 8
 웹
 서버로부터 전송된 HTML 태그들이 웹브라우저에 표시된다
-## 구현과제 
+## 구현과제 A201534027 프로젝트 9월23일
 ThirdController 클래스 생성
 test1
 액션 메소드 구현
