@@ -46,8 +46,8 @@ ttp://localhost:8088/ third/test1
 
 URL을 요청하여, 서버의 컨트롤러 액션 메소드를 호출 할 때,
 
-파라미터(request parameter)를 전달하는 방법을 학습한다.
-REST API
+파라미터(request parameter)를 전달하는 방법을 학습한다.  
+#REST API
 
 프론트엔드 기술로 UI를 개발하고, UI를 제외한 기능만 서버에서 구현하는, 백 엔드 개발에서는
 
