@@ -51,8 +51,6 @@ REST API
 
 프론트엔드 기술로 UI를 개발하고, UI를 제외한 기능만 서버에서 구현하는, 백 엔드 개발에서는
 
-GET, POST, PUT, DELETE 요청 방식을 구분해서 사용하는 보통이다.
-
-REST API를 개발할 때, @RestController 컨트롤러를 구현한다.
-
+GET, POST, PUT, DELETE 요청 방식을 구분해서 사용하는 보통이다.  
+REST API를 개발할 때, @RestController 컨트롤러를 구현한다.  
 @RestController 컨트롤러를 구현할 때는, 뷰(view)를 구현하지 않는다
