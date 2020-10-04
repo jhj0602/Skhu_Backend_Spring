@@ -30,7 +30,7 @@ Model 객체에서 데이터를 꺼내서 출력하고 , HTML 태그들도 출�
 8
 웹
 서버로부터 전송된 HTML 태그들이 웹브라우저에 표시된다
-## 구현과제 A201534027 프로젝트 9월23일
+## 구현과제 A201534027 프로젝트 10월 3일 수정
 ThirdController 클래스 생성
 test1
 액션 메소드 구현
@@ -40,7 +40,8 @@ Student
 객체에 id, studentNumber, studentName, email 값을 대입
 id 변수에는 아무 값이나 채우고 , 나머지 멤버 변수에는 자신의 학번 이름 , 이메일 주소를 채운다 test1 액션 메소드를 호출하기 위한 URL 은 다음과 같아야 한다
 h
-ttp://localhost:8088/ third/test1
+ttp://localhost:8088/ third/test1  
+test2 액션 메소드 추가 
 ## 3주차 파라미터 전달 프로젝트 9월 26일  
 학습목표
 
