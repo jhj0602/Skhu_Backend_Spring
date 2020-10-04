@@ -54,4 +54,8 @@ URL을 요청하여, 서버의 컨트롤러 액션 메소드를 호출 할 때,
 
 GET, POST, PUT, DELETE 요청 방식을 구분해서 사용하는 보통이다.  
 REST API를 개발할 때, @RestController 컨트롤러를 구현한다.  
-@RestController 컨트롤러를 구현할 때는, 뷰(view)를 구현하지 않는다
+@RestController 컨트롤러를 구현할 때는, 뷰(view)를 구현하지 않는다  
+## 4주차 mybatis 시작 10월 4일  
+학습목표  
+Spring boot +mybatis 기술을 사용하여 DB 조회 수정 삽입 삭제 기능을 구현한다
+
