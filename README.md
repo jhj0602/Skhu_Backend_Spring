@@ -59,3 +59,11 @@ REST API를 개발할 때, @RestController 컨트롤러를 구현한다.
 학습목표  
 Spring boot +mybatis 기술을 사용하여 DB 조회 수정 삽입 삭제 기능을 구현한다
 
+
+## 6주차 mybatis 기초 10월 16일  
+Spring boot 를 통한 CRUD 구현 mybatis1프로젝트 추가
+
+
+## 중간고사 구현시험 B201534027 프로젝트  
+
+
