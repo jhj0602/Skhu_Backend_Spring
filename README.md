@@ -68,11 +68,20 @@ Spring boot 를 통한 CRUD 구현 mybatis1프로젝트 추가
 
 
 ## 11주차 mybatis reusultmap1 구현 11월 2일  
-lombok이란?
+
+## resultmap1 프로젝트  
+단점 : register 클래스의 구현 register 테이블의 필드 속성이 5개 다른테이블에는 4개가 있다
+위와 같이 구현하면 DTO 클래스에 속성을 몇 십개 만들어야해서 복잡한 단점을 가지고 있다.  
+
+
+##  11주차 mybatis reusultmap2 구현 11월 10일  
+### lombok이란?
 lombok 은 getter, setter 메소드를 자동으로 생성해 주는 도구이다.
 lombok 을 사용하면, getter, setter 메소드를 구현하지 않아도 되니 편하다.
 equals 메소드, hashCode 메소드, toString 메소드도 자동으로 생성해 준다.
-클래스에 @Data 어노테이션을 붙여주면 된다.
+클래스에 @Data 어노테이션을 붙여주면 된다.  
+
+resultMap 구현 방법의 장점은 깔끔한 객체 구조에 조회 결과를 채워서 리턴할 수 있다는 점이다
 
 
 
