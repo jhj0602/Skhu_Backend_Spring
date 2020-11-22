@@ -67,3 +67,12 @@ Spring boot 를 통한 CRUD 구현 mybatis1프로젝트 추가
 ## 중간고사 구현시험 B201534027 프로젝트  
 
 
+## 11주차 mybatis reusultmap1 구현 11월 2일  
+lombok이란?
+lombok 은 getter, setter 메소드를 자동으로 생성해 주는 도구이다.
+lombok 을 사용하면, getter, setter 메소드를 구현하지 않아도 되니 편하다.
+equals 메소드, hashCode 메소드, toString 메소드도 자동으로 생성해 준다.
+클래스에 @Data 어노테이션을 붙여주면 된다.
+
+
+
