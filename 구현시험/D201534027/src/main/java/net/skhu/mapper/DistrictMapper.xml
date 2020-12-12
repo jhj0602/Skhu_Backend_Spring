@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.skhu.mapper.DistrictMapper">
+
+	<select id="findAll" resultMap="DistrictWithCitys">SELECT d.id, d.districtName, c.id
+		as city_id, c.name, c.population, c.area FROM district d JOIN city c
+		ON d.id = c.districtId order by d.id</select>
+
+	<resultMap id="DistrictWithCitys"
+		type="net.skhu.dto.District">
+		<id property="id" column="id" />
+		<result property="districtName" column="districtName" />
+		<collection property="citys" ofType="net.skhu.dto.City">
+			<id property="id" column="city_id" />
+			<result property="name" column="name" />
+			<result property="population" column="population" />
+			<result property="area" column="area" />
+		</collection>
+	</resultMap>
+
+</mapper>
