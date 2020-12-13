@@ -10,8 +10,10 @@
 </head>
 <body>
 	<div class="container">
+	<a href="create" class="btn">도시등록</a>
 		<c:forEach var="district" items="${ districts }">
-			<h3>${ district.id }- ${ district.districtName }</h3>
+			<h3>${ district.id }-${ district.districtName }</h3>
+			
 			<table class="list">
 				<thead>
 					<tr>
