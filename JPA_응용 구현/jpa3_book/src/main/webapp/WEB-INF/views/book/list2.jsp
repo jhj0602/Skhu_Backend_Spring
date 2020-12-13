@@ -14,18 +14,16 @@
 			<thead>
 				<tr>
 					<th>id</th>
-					<th>학과명</th>
-					<th>단축명</th>
-					<th>전화</th>
+					<th>카테고리 목록</th>
+				
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach var="department" items="${ departments }">
+				<c:forEach var="category" items="${ categorys }">
 					<tr>
-						<td>${ department.id }</td>
-						<td>${ department.name }</td>
-						<td>${ department.shortName }</td>
-						<td>${ department.phone }</td>
+						<td>${ category.id }</td>
+						<td>${ category.categoryName }</td>
+						
 					</tr>
 				</c:forEach>
 			</tbody>
